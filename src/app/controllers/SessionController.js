@@ -16,6 +16,7 @@ class SessionController {
       if (!(await schema.isValid(req.body))) {
         return res.status(400).send({ error: 'Validation fails' });
       }
+
       const { email, password } = req.body;
 
       const user = await User.findOne({ where: { email } });
@@ -32,7 +33,7 @@ class SessionController {
 
       const { id, name } = user;
 
-      return res.status(200).send({
+      return res.status(200).json({
         user: {
           id,
           name,
@@ -44,7 +45,7 @@ class SessionController {
       });
     } catch (err) {
       console.error(err);
-      return res.status(400).send({
+      return res.status(400).json({
         error: {
           title: 'User auth failed',
         },
