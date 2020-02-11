@@ -44,7 +44,6 @@ class SessionController {
         }),
       });
     } catch (err) {
-      console.error(err);
       return res.status(400).json({
         error: {
           title: 'User auth failed',
