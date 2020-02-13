@@ -100,6 +100,4 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 Feito com ♥ por Fabricio Dani :wave: [LinkedIn!](https://www.linkedin.com/in/fabricio-dani-373469176/)
 
-Distribuido sobre licensa do MIT. Veja [LICENSE](https://github.com/fabriciodanioj/dafne-backend/blob/master/LICENSE) para mais informações.
-
 [https://github.com/fabriciodanioj](https://github.com/fabriciodanioj)
